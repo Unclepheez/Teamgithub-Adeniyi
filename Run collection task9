@@ -1,0 +1,735 @@
+{
+	"id": "fb05366a-1b9a-4549-a139-d3c5a55516b1",
+	"name": "STSTStudentCourse",
+	"timestamp": "2024-03-16T00:31:01.468Z",
+	"collection_id": "33451095-e7bb4637-66e3-4975-a714-8dd772b0a5fb",
+	"folder_id": 0,
+	"environment_id": "33451095-9948b295-638b-418c-bd88-01f83ec6df5a",
+	"totalPass": 101,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-03-16T00:28:56.152Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fabb1b43-d8ee-4613-a90b-593404a04428",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 13496,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should be OK string": true,
+				"confirm that apiVersion is 7.2.5.0": true,
+				"confirm that title is Fusio": true,
+				"confirm that paymentCurrency is EUR": true,
+				"Body matches string": true,
+				"Confirm that scopes is present": true,
+				"Confirm that links is present": true,
+				"Search for authorization in categories": true,
+				"Search for system in categories": true,
+				"Search for consumer in categories": true,
+				"Search for backend in categories": true,
+				"Search for default in categories": true,
+				"Verify the value for scopes": true,
+				"Verify the value of developer": true,
+				"Confirm the value of rel": true,
+				"Confirm the value of href": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should be OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that apiVersion is 7.2.5.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that paymentCurrency is EUR": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that scopes is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that links is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for authorization in categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for system in categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for consumer in categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for backend in categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for default in categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify the value for scopes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify the value of developer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm the value of rel": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm the value of href": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13496
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should be OK string": true,
+					"confirm that apiVersion is 7.2.5.0": true,
+					"confirm that title is Fusio": true,
+					"confirm that paymentCurrency is EUR": true,
+					"Body matches string": true,
+					"Confirm that scopes is present": true,
+					"Confirm that links is present": true,
+					"Search for authorization in categories": true,
+					"Search for system in categories": true,
+					"Search for consumer in categories": true,
+					"Search for backend in categories": true,
+					"Search for default in categories": true,
+					"Verify the value for scopes": true,
+					"Verify the value of developer": true,
+					"Confirm the value of rel": true,
+					"Confirm the value of href": true
+				}
+			]
+		},
+		{
+			"id": "ea6cfdcd-e70d-4dea-8ebd-dbdf5c59f775",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 382,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should be OK string": true,
+				"confirm that apiVersion is 7.2.5.0": true,
+				"confirm that title is Fusio": true,
+				"confirm that paymentCurrency is EUR": true,
+				"Body matches string": true,
+				"Confirm that scopes is present": true,
+				"Confirm that links is present": true,
+				"Search for authorization in categories": true,
+				"Search for system in categories": true,
+				"Search for consumer in categories": true,
+				"Search for backend in categories": true,
+				"Search for default in categories": true,
+				"Verify the value for scopes": true,
+				"Verify the value of developer": true,
+				"Confirm the value of rel": true,
+				"Confirm the value of href": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should be OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that apiVersion is 7.2.5.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that paymentCurrency is EUR": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that scopes is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that links is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for authorization in categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for system in categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for consumer in categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for backend in categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for default in categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify the value for scopes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify the value of developer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm the value of rel": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm the value of href": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				382
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should be OK string": true,
+					"confirm that apiVersion is 7.2.5.0": true,
+					"confirm that title is Fusio": true,
+					"confirm that paymentCurrency is EUR": true,
+					"Body matches string": true,
+					"Confirm that scopes is present": true,
+					"Confirm that links is present": true,
+					"Search for authorization in categories": true,
+					"Search for system in categories": true,
+					"Search for consumer in categories": true,
+					"Search for backend in categories": true,
+					"Search for default in categories": true,
+					"Verify the value for scopes": true,
+					"Verify the value of developer": true,
+					"Confirm the value of rel": true,
+					"Confirm the value of href": true
+				}
+			]
+		},
+		{
+			"id": "712998ca-f45f-4dec-82fc-335c6f2d99b3",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php?id=about",
+			"time": 375,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response has the required fields": true,
+				"apiVersion is a non-empty string": true,
+				"Validate that title is a non-empty string": true,
+				"Validate that paymentCurrency is a non-empty string": true,
+				"Categories is an array and is not empty": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has the required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"apiVersion is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate that title is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate that paymentCurrency is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Categories is an array and is not empty": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				375
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response has the required fields": true,
+					"apiVersion is a non-empty string": true,
+					"Validate that title is a non-empty string": true,
+					"Validate that paymentCurrency is a non-empty string": true,
+					"Categories is an array and is not empty": true
+				}
+			]
+		},
+		{
+			"id": "d4e9480e-8648-431e-aa61-23a4756dbf37",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/index.php?id=1000000",
+			"time": 2225,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 1000000": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 1000000": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2225
+			],
+			"allTests": [
+				{
+					"Status code should be 1000000": true
+				}
+			]
+		},
+		{
+			"id": "460c5e3c-af30-4f2d-988d-6e3acd72ff08",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me/Books?Type=fiction",
+			"time": 1592,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name should be OK string": true,
+				"Get all books": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should be OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get all books": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1592
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name should be OK string": true,
+					"Get all books": true
+				}
+			]
+		},
+		{
+			"id": "1cc6b865-479d-472c-aecc-afe4833b534c",
+			"name": "Get Books by ID",
+			"url": "https://simple-books-api.glitch.me/books/4",
+			"time": 455,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"confirm id is 4": true,
+				"confirm name is The Midnight Library": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm id is 4": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm name is The Midnight Library": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				455
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"confirm id is 4": true,
+					"confirm name is The Midnight Library": true
+				}
+			]
+		},
+		{
+			"id": "162349fe-f261-4046-9d3e-38f550259872",
+			"name": "Get Books by Type",
+			"url": "https://simple-books-api.glitch.me/books?type=fiction",
+			"time": 408,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name should be OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should be OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				408
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name should be OK string": true
+				}
+			]
+		},
+		{
+			"id": "2c73db89-3f38-429e-92ac-d270066b4f25",
+			"name": "Place a book order - using book ID",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 637,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status code name has string": true,
+				"order created": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"order created": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				637
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"order created": true
+				}
+			]
+		},
+		{
+			"id": "3008e03e-cc6a-40ee-af34-7727951a3df1",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders/?=",
+			"time": 1600,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name should be OK string": true,
+				"confirm that customerName is adeniyi": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should be OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that customerName is adeniyi": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1600
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name should be OK string": true,
+					"confirm that customerName is adeniyi": true
+				}
+			]
+		},
+		{
+			"id": "3179c8f2-d686-4c60-82cd-9d546c2704fd",
+			"name": "Get an order - using orderID",
+			"url": "https://simple-books-api.glitch.me/orders/tGyffiMWyApl_A7uOAJKu",
+			"time": 533,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				533
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "017fffd0-8f13-4547-90f7-c0b7b9cc7ce7",
+			"name": "Update an order",
+			"url": "https://simple-books-api.glitch.me/orders/",
+			"time": 676,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"verify that order is created": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that order is created": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				676
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"verify that order is created": true
+				}
+			]
+		},
+		{
+			"id": "bc4f3aad-3636-4721-b9ac-ce587211eb61",
+			"name": "Delete an order",
+			"url": "https://simple-books-api.glitch.me/orders/tGyffiMWyApl_A7uOAJKu",
+			"time": 1443,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code should be 204": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1443
+			],
+			"allTests": [
+				{
+					"Status code should be 204": true
+				}
+			]
+		},
+		{
+			"id": "43399543-35b8-41e8-bd28-85339290a142",
+			"name": "Register API Client",
+			"url": "https://simple-books-api.glitch.me/api-clients/",
+			"time": 23077,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				23077
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5eb71455-edba-4012-b79d-0c672fdf59b9",
+			"name": "Get API Status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 74146,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should 200": true,
+				"status is present": true
+			},
+			"testPassFailCounts": {
+				"Status code should 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"status is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				74146
+			],
+			"allTests": [
+				{
+					"Status code should 200": true,
+					"status is present": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 121045,
+	"collection": {
+		"requests": [
+			{
+				"id": "fabb1b43-d8ee-4613-a90b-593404a04428",
+				"method": "GET"
+			},
+			{
+				"id": "ea6cfdcd-e70d-4dea-8ebd-dbdf5c59f775",
+				"method": "GET"
+			},
+			{
+				"id": "712998ca-f45f-4dec-82fc-335c6f2d99b3",
+				"method": "GET"
+			},
+			{
+				"id": "d4e9480e-8648-431e-aa61-23a4756dbf37",
+				"method": "GET"
+			},
+			{
+				"id": "460c5e3c-af30-4f2d-988d-6e3acd72ff08",
+				"method": "GET"
+			},
+			{
+				"id": "1cc6b865-479d-472c-aecc-afe4833b534c",
+				"method": "GET"
+			},
+			{
+				"id": "162349fe-f261-4046-9d3e-38f550259872",
+				"method": "GET"
+			},
+			{
+				"id": "2c73db89-3f38-429e-92ac-d270066b4f25",
+				"method": "POST"
+			},
+			{
+				"id": "3008e03e-cc6a-40ee-af34-7727951a3df1",
+				"method": "GET"
+			},
+			{
+				"id": "3179c8f2-d686-4c60-82cd-9d546c2704fd",
+				"method": "GET"
+			},
+			{
+				"id": "017fffd0-8f13-4547-90f7-c0b7b9cc7ce7",
+				"method": "POST"
+			},
+			{
+				"id": "bc4f3aad-3636-4721-b9ac-ce587211eb61",
+				"method": "DELETE"
+			},
+			{
+				"id": "43399543-35b8-41e8-bd28-85339290a142",
+				"method": "POST"
+			},
+			{
+				"id": "5eb71455-edba-4012-b79d-0c672fdf59b9",
+				"method": "GET"
+			}
+		]
+	}
+}
