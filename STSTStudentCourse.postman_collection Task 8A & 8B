@@ -914,7 +914,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrlBooks}}/orders/",
+							"raw": "{{baseUrlBooks}}/orders/?=",
 							"host": [
 								"{{baseUrlBooks}}"
 							],
@@ -925,8 +925,7 @@
 							"query": [
 								{
 									"key": "",
-									"value": "",
-									"disabled": true
+									"value": ""
 								}
 							]
 						}
@@ -986,7 +985,7 @@
 							"variable": [
 								{
 									"key": "orderId",
-									"value": "A_IjihpaJ0fFUfProO8Oz"
+									"value": "{{orderid}}"
 								}
 							]
 						}
@@ -1032,7 +1031,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"bookId\": 1,\n    \"customerName\": \"Testify Academy\"\n}",
+							"raw": "{\n    \"bookId\": {{TheMidnightLibraryid}},\n    \"customerName\": \"Adeniyi\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1071,9 +1070,12 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									""
+									"pm.test(\"Status code should be 204\", function () {\r",
+									"    pm.response.to.have.status(204);\r",
+									"});"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -1083,7 +1085,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "540bd43cf706368d43ecbfd49df5a059c92c9f3306de459bf39c3a29b96ebfe5",
+									"value": "93d76ee7952f10564186c269d130067853edafb6215d4ee2eefaa9b46c74c205",
 									"type": "string"
 								}
 							]
@@ -1100,12 +1102,9 @@
 							}
 						},
 						"url": {
-							"raw": "https://simple-books-api.glitch.me/orders/:orderId",
-							"protocol": "https",
+							"raw": "{{baseUrlBooks}}/orders/:orderId",
 							"host": [
-								"simple-books-api",
-								"glitch",
-								"me"
+								"{{baseUrlBooks}}"
 							],
 							"path": [
 								"orders",
@@ -1114,7 +1113,7 @@
 							"variable": [
 								{
 									"key": "orderId",
-									"value": "rObASEWYlVrRX6cTAEgbt"
+									"value": "{{orderid}}"
 								}
 							]
 						}
@@ -1201,16 +1200,30 @@
 		},
 		{
 			"name": "Get API Status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code should 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"status is present\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"status\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://simple-books-api.glitch.me/status",
-					"protocol": "https",
+					"raw": "{{baseUrlBooks}}/status",
 					"host": [
-						"simple-books-api",
-						"glitch",
-						"me"
+						"{{baseUrlBooks}}"
 					],
 					"path": [
 						"status"
